@@ -19,6 +19,6 @@ blurb      : Vegan / dairy-free overnight oats
 
 ## Process
 
-1. Combine all ingredients in a bowl.
-2. Stir.
-3. Refrigerate overnight.
+[ ] Combine all ingredients in a bowl.
+[ ] Stir.
+[ ] Refrigerate overnight.
