@@ -29,7 +29,7 @@ blurb      : Vegan / dairy-free / egg-free pillowy pancakes
 
 1. In a large bowl, combine all ingredients and whisk to incorporate.
 2. Make a well in the center.
-3. In a large spouted measuring cup, combine milk, water, oil, vinegar, and vanila. Stir well to combine.
+3. In a large spouted measuring cup, combine milk, water, oil, vinegar, and vanilla. Stir well to combine.
 4. Add wet ingredients to dry and stir gently just to combine. Be careful not to overmix.
 5. Let stand for 10 minutes.
 6. In the meantime, heat the baking steel over medium high heat and grease with butter.
