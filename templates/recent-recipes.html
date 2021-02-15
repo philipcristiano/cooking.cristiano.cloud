@@ -1,0 +1,12 @@
+{% with recent=recipes %}
+  {% if recent %}
+    <table class="recent-posts">
+    {% for recipe in recent |sortdesc:'date'|slice:':5' %}
+      <tr>
+        <td style="white-space:nowrap">{{ recipe.date }}</td>
+        <td><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></td>
+      </tr>
+    {% endfor %}
+    </table>
+  {% endif %}
+{% endwith %}

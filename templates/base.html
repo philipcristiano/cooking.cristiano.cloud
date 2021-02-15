@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <link href="{{site_root}}static/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site_root}}static/hz/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-12">
+          <div class="masthead">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav">
+                    <li class="active"><a href="{{site_root}}index.html">Home</a></li>
+                    <li><a href="{{site_root}}recipes/index.html">Recipes</a></li>
+                  </ul>
+                </div><!-- /.nav -->
+              </div><!-- /.navbar-inner -->
+            </div><!-- /.navbar -->
+          </div><!-- /.masthead -->
+
+          <div class="body">
+          {% block body %}{% endblock %}
+          </div>
+
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </body>
+</html>
