@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+{% include "jumbotron.html" %}
+
+{% for recipe in recipes | sortdesc:'date' %}
+<h2><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></h2>
+<p>{{recipe.date}}
+<p>{{recipe.blurb}}</p>
+
+{% empty %}
+<center><h2>Ouch! There aren't recipes here, whaaat?</h2></center>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+{% include "jumbotron.html" %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      {{ snippets|get:'about'|markdown_to_html }}
+    </div>
+    <div class="col-md-3">
+      <h3 style="margin-top:0">Recent recipes</h3>
+      {% include "recent-recipes.html" %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
