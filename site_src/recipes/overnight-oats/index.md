@@ -3,7 +3,7 @@ title      : Overnight Oats
 date       : 2021-02-15
 blurb      : Vegan / dairy-free overnight oats
 
-Ingredients:
+## Ingredients
 
 * &frac18; tsp salt
 * &frac14; C rolled or old-fashioned oats (certified gluten free, if necessary)
@@ -13,11 +13,12 @@ Ingredients:
 * &frac14; C non-dairy yogurt
 * &frac12; C non-dairy milk
 
-Equipment:
+## Equipment
 
 * Measuring cups and spoons
 
-Process:
+## Process
 
 1. Combine all ingredients in a bowl.
 2. Stir.
+3. Refrigerate overnight.
