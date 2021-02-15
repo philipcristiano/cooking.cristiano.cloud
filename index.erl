@@ -5,8 +5,8 @@
 data(_) ->
     #{
      site     => {eterm,    "site.config"},
-     recipes => {markdown, "site_src/recipes/*/index.md"}
-     %  snippets => {markdown, "snippets/*.md"},
+     recipes => {markdown, "site_src/recipes/*/index.md"},
+     snippets => {markdown, "snippets/*.md"}
      }.
 
 site(Data) ->
