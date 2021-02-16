@@ -26,9 +26,9 @@ blurb      : Vegan / dairy-free macaroni and cheese with peas
 
 ## Process
 
-1. Boil paste per package instructions.
-2. Combine remaining ingredients (except peas) in a high-speed blender. Do not mix yet.
-3. When pasta is cooked, drain but reserve 2 cups of water and add to blender. Return pasta to pot.
-4. Turn blender on high and blend until very smooth and velvety.
-5. Add sauce and peas to paste and mix.
-6. Let rest for 5 minutes before serving.
+1. Boil pasta per package instructions.
+2. Combine remaining ingredients (except peas) in a high-speed blender. **Do not blend yet.**
+3. When pasta is cooked, drain macaroni but reserve 2 cups of the cooking water.
+4. Transfer reserved pasta water to blender and blend until very smooth and velvety.
+5. Add sauce and peas to pasta and mix.
+6. Let rest for at least 5 minutes before serving.
