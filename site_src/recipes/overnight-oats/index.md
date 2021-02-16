@@ -17,6 +17,6 @@ blurb      : Vegan / dairy-free overnight oats
 * Glass storage container with lid
 
 ## Process
-1. Combine all ingredients in a 2-cup container that has a lid.
+1. Combine all ingredients in a 2-cup container that comes with a lid.
 2. Stir well to combine.
-3. Refrigerate overnight.
+3. Cover with lid and refrigerate overnight.
