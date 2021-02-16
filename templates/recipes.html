@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 
 {% block body %}
-
+<div class="col-md-7">
 {% for recipe in recipes | sort:'title' %}
 <h2><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></h2>
 <p>{{recipe.blurb}}</p>
-
 {% empty %}
 <center><h2>Ouch! There aren't recipes here, whaaat?</h2></center>
 {% endfor %}
-
+</div>
+<div class="col-md-5">
+	<!-- Sidebar placeholder -->
+</div>
 {% endblock %}
