@@ -1,56 +1,51 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
-    <link href="{{site_root}}static/bootstrap-4.6.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{site_root}}static/hz/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.css">
-    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
-    {% block head %}
-    <title>Cristiano Cooking</title>
-    {% endblock %}
-  </head>
-
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-	  	<div class="container">
-	  		<a class="navbar-brand" href="{{site_root}}index.html">Cristiano Cooking</a>
-	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-	  			<span class="navbar-toggler-icon"></span>
-	  		</button>
-	  		<div class="collapse navbar-collapse" id="navbar">
-	  			<ul class="navbar-nav mr-auto">
-	  				<li class="nav-item">
-	  					<a class="nav-link" href="{{site_root}}index.html">Home</a>
-	  				</li>
-	  				<li class="nav-item">
-	  					<a class="nav-link" href="{{site_root}}recipes/index.html">Recipes A-Z</a>
-	  				</li>
-	  			</ul>
-	  		</div>
-	  	</div>
-	  </nav>
-    <div class="container">
-      <div class="page-header" id="banner" style="background: url('https://www.dropbox.com/s/137tf1zs5s9x30w/brooke-lark-08bOYnH_r_E-unsplash.jpg?raw=1');background-size: 1900px;background-position: 20% 20%;max-height: 300px;border-radius: calc(0.25rem - 1px);">
-        <div class="row">
-				  <div class="col-md-12">
-				  	<img src="https://www.dropbox.com/s/m89ybo1iywnnr8c/white_logo_transparent_background.png?raw=1" style="max-height: 300px;filter: drop-shadow(1px 1px 1px #222);margin-left: auto;margin-right: auto;display: block;width: 50%;">
-				  </div>
-        </div>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="{{ site.description }}">
+		<meta name="author" content="{{ site.author }}">
+		<link href="{{site_root}}static/bootstrap-4.6.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="{{site_root}}static/hz/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.css">
+		<link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+		{% block head %}
+		<title>Cristiano Cooking</title>
+		{% endblock %}
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="{{site_root}}index.html">Cristiano Cooking</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="{{site_root}}index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{site_root}}recipes/index.html">Recipes A-Z</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-      <div class="bs-docs-section clearfix">
-        <div class="row">
-          <div class="col-md-12">
-            <div>
-            {% block body %}{% endblock %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+		</nav>
+		<div class="container">
+			<div class="page-header" id="banner" style="background: url('https://www.dropbox.com/s/137tf1zs5s9x30w/brooke-lark-08bOYnH_r_E-unsplash.jpg?raw=1');background-size: 1900px;background-position: 20% 20%;max-height: 300px;border-radius: calc(0.25rem - 1px);">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="https://www.dropbox.com/s/m89ybo1iywnnr8c/white_logo_transparent_background.png?raw=1" style="max-height: 300px;filter: drop-shadow(1px 1px 1px #222);margin-left: auto;margin-right: auto;display: block;width: 50%;">
+					</div>
+				</div>
+			</div>
+			<div class="bs-docs-section clearfix">
+				<div class="row">
+					{% block body %}{% endblock %}
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
