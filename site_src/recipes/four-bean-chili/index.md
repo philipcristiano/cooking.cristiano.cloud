@@ -1,5 +1,5 @@
-id         : quick-sour-cream
-title      : Quick Sour Cream
+id         : four-bean-chili
+title      : Four-Bean Chili
 date       : 2021-02-15
 blurb      : Vegan, oil-free, and protein-rich chili with 4 kinds of beans and TVP
 
