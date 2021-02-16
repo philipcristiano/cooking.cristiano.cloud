@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block body %}
-{% include "recent-recipes.html" %}
+<div class="col-md-12">
+	{{ snippets|get:'about'|markdown_to_html }}
 </div>
 </div>
 <div class="bs-docs-section clearfix">
 <div class="row">
-<div class="col-md-12">
-	{{ snippets|get:'about'|markdown_to_html }}
+{% include "recent-recipes.html" %}
 </div>
 {% endblock %}
