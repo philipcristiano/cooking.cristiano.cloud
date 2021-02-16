@@ -1,21 +1,16 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title>{{ recipe.title }} </title>
+<title>{{ recipe.title }} | Recipe | Cristiano Cooking </title>
 {% endblock %}
 
 {% block body %}
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <h1>{{ recipe.title }}</h1>
-      {{ recipe|markdown_to_html }}
-    </div>
-    <div class="col-md-4">
-
-    </div>
-  </div>
+<div class="col-md-7">
+	<h1>{{ recipe.title }}</h1>
+	{{ recipe|markdown_to_html }}
+</div>
+<div class="col-md-5">
+<!-- Sidebar placeholder -->
 </div>
 
 {% endblock %}
