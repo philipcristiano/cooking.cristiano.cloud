@@ -12,7 +12,7 @@ blurb      : Vegan lentil soup made in an Instant Pot
 * 1 tsp hot smoked paprika
 * 1 tsp salt
 * 1 Tbsp tomato paste
-* 2 carrots, sliced into &frac13;-inch pieces
+* 2 carrots, sliced into &frac14;-inch pieces
 * 2 celery stalks, diced (*optional*)
 * 1 lb waxy potatoes, such as Yukon Gold or Red Bliss, washed but unpeeled, chopped
 * 1 C red lentils, sorted and rinsed
