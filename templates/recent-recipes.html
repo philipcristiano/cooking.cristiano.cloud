@@ -1,12 +1,18 @@
 {% with recent=recipes %}
-  {% if recent %}
-    <table class="recent-posts">
-    {% for recipe in recent |sortdesc:'date'|slice:':5' %}
-      <tr>
-        <td style="white-space:nowrap">{{ recipe.date }}</td>
-        <td><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></td>
-      </tr>
-    {% endfor %}
-    </table>
-  {% endif %}
+{% if recent %}
+	{% for recipe in recent |sortdesc:'date'|slice:':4' %}
+				<div class="col-md-3">
+					<div class="card bg-light mb-3" style="max-width: 20rem;">
+						<div class="card-header">Recipe</div>
+						<div class="card-body">
+							<h4 class="card-title"><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></h4>
+							<p class="card-text">{{recipe.blurb}}</p>
+						</div>
+						<div class="card-footer muted">
+							{{ recipe.date }}
+						</div>
+					</div>
+				</div>
+	{% endfor %}
+{% endif %}
 {% endwith %}
