@@ -19,4 +19,4 @@ blurb      : Basic white rice cooked to perfection in the Instant Pot
 3. Close the lid, making sure the steam valve is turned to "Sealing."
 4. Set the Instant Pot to "Manual" and set the timer to 3 minutes. (It will take 5-10 minutes for it to come to pressure.)
 5. When the cook time is up, let the pressure naturally release for 10 minutes. 
-6. Quick release any remaining pressure release. Uncover, fluff the rice with a fork, and serve immediately. 
+6. Quick release any remaining pressure. Uncover, fluff the rice with a fork, and serve immediately. 
