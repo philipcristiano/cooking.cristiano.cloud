@@ -3,7 +3,7 @@
 {% for recipe in recent |sortdesc:'date'|slice:':4' %}
 <div class="col-md-3">
 	<div class="card bg-light mb-3" style="max-width: 20rem;min-height:100%;">
-		<div class="card-header">Recipe</div>
+		<div class="card-header">Recent Recipe</div>
 		<div class="card-body">
 			<h4 class="card-title"><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></h4>
 			<p class="card-text">{{recipe.blurb}}</p>
