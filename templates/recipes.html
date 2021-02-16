@@ -2,8 +2,6 @@
 
 {% block body %}
 
-{% include "jumbotron.html" %}
-
 {% for recipe in recipes | sortdesc:'date' %}
 <h2><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></h2>
 <p>{{recipe.date}}
