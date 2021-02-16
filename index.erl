@@ -5,16 +5,16 @@
 data(_) ->
     #{
      site     => {eterm,    "site.config"},
-     recipes => {markdown, "site_src/recipes/*/index.md"}
-     %  snippets => {markdown, "snippets/*.md"},
+     recipes => {markdown, "site_src/recipes/*/index.md"},
+     snippets => {markdown, "snippets/*.md"}
      }.
 
 site(Data) ->
     io:format("Data ~p~n", [Data]),
     #{
       "site/index.html" => {template, "templates/index.html", #{site_root => "/"}},
-      "site/static/bootstrap-4.0.0/css/*" => {files, "site_src/static/bootstrap-4.0.0/css/*"},
-      "site/static/bootstrap-4.0.0/js/*" => {files, "site_src/static/bootstrap-4.0.0/js/*"},
+      "site/static/bootstrap-4.6.0/css/*" => {files, "site_src/static/bootstrap-4.6.0/css/*"},
+      "site/static/bootstrap-4.6.0/js/*" => {files, "site_src/static/bootstrap-4.6.0/js/*"},
 
       "site/static/hz/css/*" => {files, "site_src/static/hz/css/*"},
       "site/recipes/index.html" =>

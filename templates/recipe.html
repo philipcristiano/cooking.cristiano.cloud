@@ -1,14 +1,15 @@
 {% extends "base.html" %}
 
+{% block head %}
+<title>{{ recipe.title }} </title>
+{% endblock %}
+
 {% block body %}
 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
       <h1>{{ recipe.title }}</h1>
-      <p class="post-info">
-        {{ recipe.date }}
-      </p>
       {{ recipe|markdown_to_html }}
     </div>
     <div class="col-md-4">
