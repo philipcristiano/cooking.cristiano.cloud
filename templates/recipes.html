@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block head %}
+<title>Recipes A-Z | {{ site.title }}</title>
+{% endblock %}
+
 {% block body %}
 <div class="col-md-7">
 	<h1>Recipe Index</h1>
@@ -13,4 +17,5 @@
 <div class="col-md-5">
 	<!-- Sidebar placeholder -->
 </div>
+
 {% endblock %}
