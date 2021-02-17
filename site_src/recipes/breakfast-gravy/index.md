@@ -19,7 +19,7 @@ blurb      : Vegan breakfast gravy
 
 ## Equipment
 
-* 1&rac12; quart saucepan
+* 1&frac12;-qt saucepan
 * Wire whisk
 * Measuring cups and spoons
 
