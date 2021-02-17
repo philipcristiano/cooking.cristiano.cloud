@@ -9,23 +9,23 @@ blurb      : Homemade soy milk we use for cooking
 
 ## Ingredients
 
-* 120g soy beans
-* 1500ml filtered water
+* 120 g soy beans
+* 1500 ml filtered water
 
 ## Equipment
 
-* [Soyajoy](https://www.sanlinxusa.com/store/)
-* digital scale
+* [SoyaJoy](https://www.sanlinxusa.com/store/)
+* Digital scale
 * Plastic pitcher
-* Strainer
-* Serving pitcher
+* Fine-mesh strainer
+* Serving pitcher or storage container(s)
 
 ## Process
 
-* Rinse soybeans
-* Add water to SoyaJoy
-* Add soybeans to SoyaJoy
-* Use "Dry Beans" mode on SoyaJoy
-* Strain milk into pitcher
-* Let cool/cool in sink with cold tap water
-* Add to serving pitcher or storage containers
+1. Rinse soybeans.
+2. Add water to SoyaJoy.
+3. Add soybeans to SoyaJoy.
+4. Use "Dry Beans" mode on SoyaJoy.
+5. Strain milk into pitcher.
+6. Let cool/cool in sink with cold tap water.
+7. Add to serving pitcher or storage container(s).
