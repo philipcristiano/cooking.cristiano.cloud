@@ -12,7 +12,7 @@ blurb      : Vegan / dairy-free macaroni and cheese with peas
 * &frac34; tsp chili powder
 * &frac18; tsp turmeric
 * &frac18; tsp cayenne pepper
-* &frac12; Dijon mustard
+* &frac12; tsp Dijon mustard
 * &frac34; tsp salt
 * &frac14; tsp freshly ground black pepper
 * 1 Tbsp tomato paste
