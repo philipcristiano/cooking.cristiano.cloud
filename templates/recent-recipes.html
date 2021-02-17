@@ -1,7 +1,7 @@
 {% with recent=recipes %}
 {% if recent %}
 {% for recipe in recent |sortdesc:'date'|slice:':4' %}
-<div class="col-md-3">
+<div class="col-md-3" style="margin-bottom:0.2em;">
 	<div class="card bg-light mb-3" style="min-height:100%;">
 		<div class="card-header">Recent Recipe</div>
 		<div class="card-body">
@@ -9,7 +9,7 @@
 			<p class="card-text">{{recipe.blurb}}</p>
 		</div>
 		<div class="card-footer text-muted">
-			{{ recipe.date }}
+			<small>{{ recipe.date }}</small>
 		</div>
 	</div>
 </div>
