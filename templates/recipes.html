@@ -2,6 +2,7 @@
 
 {% block body %}
 <div class="col-md-7">
+	<h1>Recipe Index</h1>
 {% for recipe in recipes | sort:'title' %}
 <h2><a href="{{site_root}}recipes/{{recipe.id}}.html">{{ recipe.title }}</a></h2>
 <p>{{recipe.blurb}}</p>
