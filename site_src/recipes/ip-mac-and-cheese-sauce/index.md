@@ -33,7 +33,7 @@ blurb      : Velvety vegan cheese sauce made in an Instant Pot, great for adding
 2. Add the butternut squash, potatoes, onion, garlic, cashews, nutritional yeast, miso paste, lemon juice, 1&frac34; tsp salt, lite coconut milk, and water to the Instant Pot. Stir well to combine.
 3. Close the lid, making sure the steam valve is turned to "Sealing."
 4. Set the Instant Pot to "Steam" and set the timer to 7 minutes. (It will take 10-15 minutes for it to come to pressure.)
-5. Use the quick release method to release the pressure until it is safe to unlock the lid.
+5. When the time is up, use the quick release method to release the pressure until it is safe to unlock the lid.
 6. Transfer the contents of the Instant Pot to a Vitamix.
 7. Add the garlic powder, onion powder, mustard powder, paprika, pepper flakes, and salt to the Vitamix. Blend until velvety smooth.
 
