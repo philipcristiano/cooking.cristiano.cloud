@@ -1,7 +1,7 @@
 id         : ip-eggplant-pasta
 title      : Eggplant Pasta (Instant Pot)
 date       : 2022-05-13
-blurb      : Creamy pasta with an eggplant, red bell pepper, and tomato sauce.
+blurb      : One-pot (pressure cooker) pasta with a creamy eggplant, red bell pepper, and tomato sauce.
 
 ## Makes
 
@@ -28,11 +28,13 @@ blurb      : Creamy pasta with an eggplant, red bell pepper, and tomato sauce.
 ## Equipment
 
 * Instant Pot
+* Measuring cups & spoons
+* Can opener
 
 ## Process
 
-* Combine all ingredients (except shredded cheese) to Instant Pot. Mix well to combine.
+* Combine all ingredients (except shredded cheese) in Instant Pot. Mix well to combine.
 * Cover and cook on high pressure for 8 minutes.
-* After 10 minutes, quick release pressure.
-* Stir in shredded cheese.
+* After 10 minutes, sent to "Venting" to quickly release pressure.
+* Stir in shredded cheese and mix well to combine.
 * Serve and enjoy!
