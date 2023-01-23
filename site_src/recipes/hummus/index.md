@@ -20,7 +20,7 @@ blurb      : Smooth hummus
 ### Hummus
 * 1 bulb of garlic
 * &frac12; a lemon
-* &frac14; olive oil
+* &frac14; cup olive oil
 * 1 Tbsp white vinegar
 * 2 tsp salt for hummus
 * 112g Krinos Imported Tahini
